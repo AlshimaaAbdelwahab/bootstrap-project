@@ -1,0 +1,135 @@
+*
+{
+   /* outline: 1px solid red;*/
+}
+
+.logo
+{
+    width: 40px;
+    height: 45px;
+    margin-left: 50px;
+    
+}
+.navbar-brand
+{
+    padding: 0;
+}
+.collapse{
+    padding: 0;
+    margin-right: 50px;
+}
+
+.nav-pills .nav-link{
+    font-weight: 600;
+    color: #555;
+    background-color: transparent;
+    border: 1px solid rgba(0,0,0,0.1); 
+}
+.nav-pills .nav-link.active{
+    background-color: #ec3237;
+    color:#fff;
+}
+.navbar{
+    padding: 0px;
+}
+ .navbar-dark .navbar-nav .active>.nav-link {
+    color:#ec3237;
+    border-bottom: 2px solid #ec3237;
+    font-weight: normal;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color:#fff;
+    font-weight: 600;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color:#ec3237;
+}
+.home{
+    background-image: url(../images/cover.jpg);
+    background-size: 100% 100%;
+    height: 100vh;
+    color: #fff;
+
+}
+.rgba{
+    background-color: rgba(236, 51, 55, 0.7);
+    height: 100vh;
+    width: 100wh;
+}
+.home-info{
+    position: relative;
+    top:200px;
+}
+.home-info a{
+    border: 1px solid #fff;
+}
+.home .icon{
+    position: relative;
+        width: 10%;
+    top:400px;
+}
+.icons-row i:hover{
+    color: #fff !important;
+    border:1px solid #ec3237 !important;
+    background-color: #ec3237;
+    
+}
+.about .profile-info p,.skills-info p{
+    font-size: 18;
+    line-height: 1.5;
+}
+.work .layout{
+        box-shadow: 0px 1px 4px rgba(107, 69, 69, 0.050);
+
+}
+.work .service h4{
+    font-weight: 600;
+}
+.work .service:hover h4{
+    color: #ec3237;
+}
+
+.work .service:hover i{
+    background-color: #ec3237 !important;
+    border-color: #ec3237 !important;
+    color: #fff;
+}
+
+.counter{
+    background-image: url(../images/project-counter.jpg);
+    color:#ec3237;
+}
+.counter .rgba ,.testimontial .rgba{
+    background-color:rgba(0,0,0,0.5) ;
+    height: auto;
+}
+.counter p{
+    font-size: 3em;
+    color: #ffffff;
+    font-weight: 600;
+}
+.counter .icon{
+    font-size: 25px !important;
+    
+}
+.testimontial{
+    background-image: url(../images/client-testimonial.jpg);
+    background-attachment: fixed;
+}
+.testimontial img{
+}
+.testimontial .border{
+   border-width: 6px !important; 
+}
+@media (max-width:990px){
+    .home-info{
+    position: relative;
+    top:250px;
+}
+    .home-info h1{
+        font-size: 2rem;  
+    }
+    .home-info h3{
+        font-size: 1.25rem;
+    }
+}
